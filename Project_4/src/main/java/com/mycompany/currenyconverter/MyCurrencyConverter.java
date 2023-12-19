@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Nikita
+ * @author Omkar
  */
 public class MyCurrencyConverter extends javax.swing.JFrame {
 
