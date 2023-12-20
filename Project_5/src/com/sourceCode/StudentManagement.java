@@ -1,4 +1,4 @@
-package com.TechVidvan;
+package com.SourceCode;
 
 import java.awt.EventQueue;
 
@@ -64,7 +64,7 @@ public class StudentManagement {
 	private void initialize() {
 //		Creating new frame for the components
 		frmStduentManagementSystem = new JFrame();
-		frmStduentManagementSystem.setTitle("Stduent Management System by TechVidvan");
+		frmStduentManagementSystem.setTitle("Stduent Management System");
 		frmStduentManagementSystem.setBounds(100, 100, 1100, 600);
 		frmStduentManagementSystem.setResizable(false);
 		frmStduentManagementSystem.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
