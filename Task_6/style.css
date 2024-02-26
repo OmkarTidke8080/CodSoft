@@ -1,0 +1,163 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+  /* background-color: #130F40; */
+  background-color: black;
+}
+
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+    color: #D2A813;
+    margin-top: 10px;
+    font-family: "Roboto Mono", monospace; 
+
+}
+
+.form
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#new-task-form
+{
+    border: 2px solid white;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(14, 220, 62), 0 0 5px rgb(4, 253, 42);
+    border-radius: 10px;
+    width: 420px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+#new-task-input
+{
+    color: white;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px; 
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+
+#new-task-submit
+{
+    border: 2px double transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  height: 40px;
+  width: 80px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px; 
+  color: white;
+}
+
+#new-task-submit:hover
+{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.sub_header
+{
+    color: #4CBB17;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto Mono", monospace; 
+    margin-top: 20px;
+
+}
+.task-list
+{
+    display: flex;
+    justify-content: center;
+}
+
+.task
+{
+    display: flex;
+    border: 2px solid white;
+    padding: 8px;
+    margin: 15px;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(14, 220, 62), 0 0 5px darkblue;
+    border-radius: 10px;
+}
+
+
+.text
+{
+    color: white;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+
+}
+
+.edit
+{
+    /* height: 40px;
+    width: 60px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;    
+    background-image: linear-gradient(to right, #12e12e 0%, #a8e063  51%, #0b30eb  100%);
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px; */
+
+  border: 2px double transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  height: 40px;
+  width: 60px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px; 
+  color: white;
+    
+}
+
+.edit:hover
+{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.delete
+{
+    border: 2px double transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  height: 40px;
+  width: 60px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px; 
+  color: white;
+}
+
+.delete:hover
+{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
